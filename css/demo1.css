@@ -1,0 +1,129 @@
+
+/* 对页眉的设置 */
+.container{
+    background-color: #faf9f6;
+    padding: 10px 20px;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;;
+    border-radius: 50px 0 50px 50px;
+    opacity: 0.4;
+    z-index: 999
+}
+/* box的布局调整 */
+.box{
+    color:#eaf4f2;
+    width:450px;
+    background: rgba(127, 141, 95, 0.544);
+    padding:40px;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 5%;
+    font-family: '华文行楷';
+}
+/* box中图片的调整 */
+.box .box-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+/* 文字的h1的调整 */
+.box h1{
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+/* 文字h2的调整 */
+.box h2{
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+/* 文字one的调整 */
+.one{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(17, 16, 16);
+}
+/* 调整p1 */
+.p1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: -400px;
+    width: 500px;
+    margin-left: 600px;
+    height: 1100px;
+    flex-direction: column;
+    background-color: #e1eef0;
+    margin-left: 700px;
+    border-radius: 50px 50px 50px 50px;
+    opacity: 0.5;/* 设置透明度 */
+}
+/* 调整文字 */
+.p1 p {
+    margin: 10px 0;
+    text-align: center;
+    opacity: 1;
+    /* 文字不透明 */
+    font-family: '华文行楷';
+    font-size: 20px;
+  }
+  /* 调整p3 */
+.P3 {
+    font-size: 14px;
+    font-style: italic;
+    text-align: right;
+    margin-top: 20px;
+    padding-left: 250px;
+  }
+  /* 调整音乐播放器 */
+  .music {
+    display: flex;
+    align-items:center;
+    justify-content: left;
+    margin-top: -22px;
+    padding-top: -500px;
+    padding-right: 150px;
+ }
+.music audio {
+    margin-right: 80px;
+    filter: saturate(5) ;
+    /* 调整颜色饱和度 */
+    padding-left: 20px;
+}
+/* 对盒子next-page的调整 */
+  .next-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -820px;
+    width: 500px;
+    margin-left: -1000;
+    }
+    /*对图片P2的调整  */
+   .P2 {
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;/* 是图片变为圆形 */
+    transition: all 0.3s ease-in-out;  /* 图片变化 */
+    margin-left: 530px;
+    }
+    
+    .P2:hover {
+    transform: scale(1.2);   
+    /* 使图片被点击时发大1.2倍 */
+    }
+    /* 调整页脚 */
+    .P4{
+        margin-top: 800px;
+        background-color: rgb(223, 230, 230);
+        opacity: 0.5;
+        height: 30px;
+        border-radius: 50px 50px 50px 50px;
+    }
+   
